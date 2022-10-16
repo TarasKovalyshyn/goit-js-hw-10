@@ -66,7 +66,7 @@ function createCartInfo(response) {
             <h2 class="country-info__title">Population:</h2><p class="country-info__text">${population}</p>
           </li>
           <li class="country-info__item">
-            <h2 class="country-info__title">Languages:</h2><p class="country-info__text">;${languages[0].nativeName}
+            <h2 class="country-info__title">Languages:</h2><p class="country-info__text">${languages[0].nativeName}
           </li>
         </ul>`;
     }
